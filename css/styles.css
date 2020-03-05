@@ -1,0 +1,44 @@
+/* IMPORTS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+:root {
+  /* Variables */
+  --red: hsl(0, 78%, 62%);
+  --cyan: hsl(180, 62%, 55%);
+  --orange: hsl(34, 97%, 64%);
+  --blue: hsl(212, 86%, 64%);
+  --dark-blue: hsl(234, 12%, 34%);
+  --grey-blue: hsl(229, 6%, 66%);
+  --light-grey: hsl(0, 0%, 98%);
+
+  /* General Styling */
+  font-size: 10px;
+  font-family: "Poppins", "Segoe UI", sans-serif;
+  line-height: 1.5;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+img {
+  inline-size: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+}
