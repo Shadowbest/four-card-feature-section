@@ -42,3 +42,27 @@ h5,
 h6 {
   font-weight: 600;
 }
+
+/* HEADER */
+.header {
+  width: 100%;
+  max-width: 60rem;
+  margin: 0 auto 2rem;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.header__title {
+  font-size: 2.6rem;
+  color: var(--dark-blue);
+}
+
+.header__title .light-weight {
+  display: block;
+  font-weight: 200;
+}
+
+.header__content {
+  color: var(--grey-blue);
+  font-size: 1.67rem;
+}
