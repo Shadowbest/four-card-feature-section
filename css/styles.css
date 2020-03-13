@@ -43,6 +43,10 @@ h6 {
   font-weight: 600;
 }
 
+.page-wrapper {
+  padding: 1rem;
+}
+
 /* HEADER */
 .header {
   width: 100%;
@@ -65,4 +69,59 @@ h6 {
 .header__content {
   color: var(--grey-blue);
   font-size: 1.67rem;
+}
+
+/* MAIN SECTION */
+.main {
+  width: 90%;
+  max-width: 1175px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.main__card-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  background: var(--light-grey);
+  box-shadow: 0px 4px 10px hsla(212, 86%, 64%, 0.4);
+  border-top: 5px solid;
+}
+
+.main__card-title {
+  font-size: 1.8rem;
+  color: var(--dark-blue);
+}
+
+.main__card-desc {
+  font-size: 1.4rem;
+  margin-block-end: 5rem;
+  color: var(--grey-blue);
+}
+
+.main__card-item img {
+  align-self: flex-end;
+  width: 60px;
+}
+
+.main__card-item + .main__card-item {
+  margin-block-start: 2rem;
+}
+
+.main__card-item.cyan {
+  border-color: var(--cyan);
+}
+
+.main__card-item.red {
+  border-color: var(--red);
+}
+
+.main__card-item.orange {
+  border-color: var(--orange);
+}
+
+.main__card-item.blue {
+  border-color: var(--blue);
 }
