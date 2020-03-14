@@ -28,6 +28,7 @@ body {
   margin: 0;
   font-size: 1.5em;
   font-weight: 400;
+  background-color: var(--light-grey);
 }
 
 img {
@@ -44,7 +45,7 @@ h6 {
 }
 
 .page-wrapper {
-  padding: 1rem;
+  padding: 1rem 0;
 }
 
 /* HEADER */
@@ -82,7 +83,6 @@ h6 {
 .main__card-item {
   display: flex;
   flex-direction: column;
-  align-items: center;
   padding: 1rem 2rem;
   border-radius: 5px;
   background: var(--light-grey);
