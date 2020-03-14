@@ -130,11 +130,14 @@ h6 {
 @media screen and (min-width: 768px) {
   .main__cards {
     display: flex;
-    gap: 26px;
     align-items: center;
   }
 
   .main__cards > * {
     flex: 1 300px;
+  }
+  
+  .main__cards .middle-col {
+    margin: 0 26px;
   }
 }
