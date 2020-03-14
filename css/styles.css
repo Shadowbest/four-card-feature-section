@@ -106,8 +106,8 @@ h6 {
   width: 60px;
 }
 
-.main__card-item + .main__card-item {
-  margin-block-start: 2rem;
+.main__card-item {
+  margin-block-end: 2rem;
 }
 
 .main__card-item.cyan {
@@ -124,4 +124,17 @@ h6 {
 
 .main__card-item.blue {
   border-color: var(--blue);
+}
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 768px) {
+  .main__cards {
+    display: flex;
+    gap: 26px;
+    align-items: center;
+  }
+
+  .main__cards > * {
+    flex: 1 300px;
+  }
 }
